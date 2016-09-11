@@ -4,6 +4,7 @@
 // Christopher.Iliffe.Sprague@gmail.com                            //
 // +1 703 851 6842                                                 //
 // https://github.com/CISprague/SmartFly.git                       //
+// Implementation using ITA Matrix API                             //
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 import json, requests, datetime
 current_time = str(datetime.date.today())
@@ -17,7 +18,7 @@ def Flight_Data(adultCount=1, childCount=0, infantInLapCount=0, seniorCount=0,
 
     def qpxExpressKey():
         return open(__file__.replace('SmartFly.py', 'API_Keys/qpxExpress.key')
-        ).read()
+        ).read().strip()
 
     def params(adultCount=1, childCount=0, infantInLapCount=0, seniorCount=0,
         infantInSeatCount=0, origin=['JFK'], destination=['PEK'], maxPrice=None,
