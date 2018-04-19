@@ -8,7 +8,7 @@ Say you live in the New York city area and you want to go on holiday in Tenerife
 EasyJet: `[TXL, BSL, MXP, GVA]`
 
 # Cheap destinations from NYO:
-RyanAir: `[GDN, WMI, KRK, INI, SOF, NRN, CRL, STN, BRE, BVA, BGY]`
+RyanAir: `[GDN, WMI, KRK, INI, SOF, NRN, CRL, STN, BRE, BVA, BGY, PSA, CIA, NAP, TSF, RJK, ZAD, TGD, SKG, RHO, PFO, MLA, BZR, BCN, PMI, ALC, AGP, ]`
 
 # Cheap destinations from VST:
 RyanAir: `[STN]`
